@@ -1,0 +1,18 @@
+1. Open povwand.ino
+2. Change the message to whatever you want
+3. Change numChars to however many characters are in your message
+4. Go to File -> Preferences, scroll down and paste the following URL into the "Additional Boards Manager URLs" box:
+
+https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+
+5. Go to Tools -> Board -> Boards Manager, scroll down and click "Upload" or "Install" for ATtiny
+6. Go to Tools -> Board and select "ATtiny24/44/84"
+7. Go to Tools -> Processor and select "ATtiny84"
+8. Go to Tools -> Clock and select "Internal 8 MHz"
+9. Take the chip out of the wand and place it in the shield (opposite the way it looks like it should go), then plug the shield into the computer's USB port.
+10. Go to Tools -> Port and select whichever one has "Arduino/Genuino Uno" in parentheses next to it.
+11. Go to Tools -> Programmer and select "Arduino as ISP"
+12. Click the verify arrow in the top left to make sure your code is good
+13. Click the upload arrow in the top left
+14. Disconnect the shield from the computer and put the chip back in the wand
+15. Turn it on!
